@@ -51,6 +51,9 @@ vim.keymap.set('t', '<C-Space>', [[<C-\><C-n>]], { noremap = true })
 vim.keymap.set('n', '<leader>h', '<Cmd>vsplit<CR><C-w>l', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>v', '<Cmd>split<CR><C-w>j', { noremap = true, silent = true })
 
+-- NERDTree
+vim.keymap.set('n', '<leader>nt', '<Cmd>NERDTreeToggle<CR>', { noremap = true, silent = true })
+
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 

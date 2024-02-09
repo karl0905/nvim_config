@@ -66,4 +66,6 @@ return require('packer').startup(function(use)
       require('Comment').setup()
     end
   }
+  use 'github/copilot.vim'
+  use 'preservim/nerdtree'
 end)
